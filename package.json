@@ -1,0 +1,19 @@
+{
+  "name": "cf-strip-utm",
+  "version": "1.0.0",
+  "description": "Remove UTM, gclid, yclid params from url, used to prevent duplicating of cache in Cloudflare",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dzorogh/cf-strip-utm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dzorogh/cf-strip-utm/issues"
+  },
+  "homepage": "https://github.com/Dzorogh/cf-strip-utm#readme"
+}

@@ -1,6 +1,6 @@
 // const urlRegex = new
 // RegExp('(refreshce|yclid|gclid|cx|ie|cof|siteurl|zanpid|origin|utm_(source|campaign|medium)|fb(cl)?id|fbclid|mr:[A-z]+ref(id|src))');
-const urlRegex = new RegExp('(yclid|gclid|utm_(source|campaign|medium))');
+const urlRegex = new RegExp('(yclid|gclid|utm_(source|campaign|medium|term))');
 
 export async function stripUtmFromRequest(request: Request) {
   let url = new URL(request.url)

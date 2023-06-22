@@ -1,6 +1,6 @@
 {
   "name": "cf-strip-utm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Remove UTM, gclid, yclid params from url, used to prevent duplicating of cache in Cloudflare",
   "main": "index.ts",
   "scripts": {
